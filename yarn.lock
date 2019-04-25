@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@bitblit/ratchet@0.0.135":
-  version "0.0.135"
-  resolved "https://registry.npmjs.org/@bitblit/ratchet/-/ratchet-0.0.135.tgz#990dbe7f3de6876508f2732e713ece945e18ef34"
-  integrity sha512-qNpPXgViUJJ+llQwUfbiio/87jKJo5rqGf13netGixmHeym1d16OXJywCfLi2IdG0mIs8+3DGsISTElVhbzorw==
+"@bitblit/ratchet@0.0.160":
+  version "0.0.160"
+  resolved "https://registry.npmjs.org/@bitblit/ratchet/-/ratchet-0.0.160.tgz#0e9ef20ed5c4a4e746b170cb76b34b6df23be9c2"
+  integrity sha512-37Cf+c0Wgpu6W1h0JJsIqVSsol3R/QwxSOuWOp9tBM0RMj7qxCtbU3Ug93BnWEmKzOsXIT8g7LDCjoBVgyFgvQ==
   dependencies:
     moment "^2.20.1"
     moment-timezone "^0.5.14"
@@ -858,7 +858,7 @@ mimic-fn@^1.0.0:
   resolved "https://registry.npmjs.org/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
   integrity sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ==
 
-minidrone-js@^0.5.2:
+minidrone-js@0.5.2:
   version "0.5.2"
   resolved "https://registry.npmjs.org/minidrone-js/-/minidrone-js-0.5.2.tgz#4449e4429733280e2e872fb04551c47e3773b98e"
   integrity sha512-3mEnxuPevkXKBzKkU0iwKQyMYzJ7wAy3hx4awywLKrVl/MvtD7My6pJ6Y+0TYyRThN5RzEaev9C4UcAO3shsoA==
@@ -924,11 +924,23 @@ mocha@^3.5.3:
     mkdirp "0.5.1"
     supports-color "3.1.2"
 
+moment-timezone@0.5.14:
+  version "0.5.14"
+  resolved "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.14.tgz#4eb38ff9538b80108ba467a458f3ed4268ccfcb1"
+  integrity sha1-TrOP+VOLgBCLpGekWPPtQmjM/LE=
+  dependencies:
+    moment ">= 2.9.0"
+
 moment-timezone@^0.5.14:
   version "0.5.21"
   resolved "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.21.tgz#3cba247d84492174dbf71de2a9848fa13207b845"
   dependencies:
     moment ">= 2.9.0"
+
+moment@2.20.1:
+  version "2.20.1"
+  resolved "https://registry.npmjs.org/moment/-/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
+  integrity sha512-Yh9y73JRljxW5QxN08Fner68eFLxM5ynNOAw2LbIB1YAGeQzZT8QFSUvkAz609Zf+IHhhaUxqZK8dG3W/+HEvg==
 
 "moment@>= 2.9.0", moment@^2.20.1:
   version "2.22.2"
@@ -1645,7 +1657,7 @@ yargs-parser@^11.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs@^12.0.5:
+yargs@12.0.5, yargs@^12.0.5:
   version "12.0.5"
   resolved "https://registry.npmjs.org/yargs/-/yargs-12.0.5.tgz#05f5997b609647b64f66b81e3b4b10a368e7ad13"
   integrity sha512-Lhz8TLaYnxq/2ObqHDql8dX8CJi97oHxrjUcYtzKbbykPtVW9WB+poxI+NM2UIzsMgNCZTIf0AQwsjK5yMAqZw==
