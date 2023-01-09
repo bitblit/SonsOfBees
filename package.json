@@ -41,7 +41,7 @@
   "dependencies": {
     "minidrone-js": "0.5.2",
     "@bitblit/ratchet": "0.13.993",
-    "luxon": "1.26.0",
+    "luxon": "2.5.2",
     "yargs": "12.0.5"
   },
   "devDependencies": {
